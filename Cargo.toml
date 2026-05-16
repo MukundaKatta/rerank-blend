@@ -1,0 +1,15 @@
+[package]
+name = "rerank-blend"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Blend N RAG reranker score streams (dense, BM25, cross-encoder) with configurable weights and rank-aware normalization. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/rerank-blend"
+homepage = "https://github.com/MukundaKatta/rerank-blend"
+documentation = "https://docs.rs/rerank-blend"
+readme = "README.md"
+keywords = ["rerank", "rag", "blend", "fusion", "retrieval"]
+categories = ["algorithms", "science"]
+exclude = [".github/*", "target/*"]
